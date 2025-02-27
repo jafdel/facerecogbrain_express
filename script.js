@@ -34,5 +34,4 @@ app.post('/signIn', signIn.signIn(db, bcrypt));
 app.post('/register', register.register(db, bcrypt));
 app.put('/image', image.image(db));
 app.post('/imageUrl', (req, res) => image.url(req, res));
-const PORT = process.env.PORT;
-app.listen(PORT, () => console.log(`Server is listening on port ${PORT}`));
+app.listen(process.env.PORT || 3000, () => console.log(`Server is listening on port ${process.env.PORT}`));
