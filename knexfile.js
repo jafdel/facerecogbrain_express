@@ -8,7 +8,7 @@ module.exports = {
   development: {
     client: 'pg',
     connection: {
-      connectionString: 'postgres://postgres:CBfYU8Ky2TWhFiv@facerecogbrain-express-mm41ea-db.flycast:5432'
+      connectionString: 'postgresql://jafdel:kH5KAQ15Ic8zXZHaUsdHGh3zj5JuwQGG@dpg-cv0v2kfnoe9s73eges0g-a/facerecogbrain'
     }
   },
 
