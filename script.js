@@ -16,7 +16,6 @@ const db = knex({
         host: process.env.DATABASE_URL,
         ssl: true
     },
-    searchPath: ['knex', 'public']
 });
 
 
