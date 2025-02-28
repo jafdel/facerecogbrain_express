@@ -13,10 +13,8 @@ const image = require("./controllers/image.js");
 const db = knex({
     client: 'pg',
     connection: {
-        host: 'facerecogbrain-expressjs.internal',
-        user: 'postgres',
-        password: 'wGm8kwO9ihzUdle',
-        database: 'facerecogbrain'
+        host: process.env.DATABASE_URL,
+        ssl: true
     },
     searchPath: ['knex', 'public']
 });
