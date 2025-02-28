@@ -13,7 +13,10 @@ const image = require("./controllers/image.js");
 const db = knex({
     client: 'pg',
     connection: {
-        host: process.env.DATABASE_URL,
+        host: 'dpg-cv0v2kfnoe9s73eges0g-a',
+        user: 'jafdel',
+        password: 'kH5KAQ15Ic8zXZHaUsdHGh3zj5JuwQGG',
+        database: 'facerecogbrain',
         ssl: true
     },
 });
