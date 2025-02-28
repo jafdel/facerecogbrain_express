@@ -1,9 +1,9 @@
-# fly.toml app configuration file generated for expressjs-black-moon-7861 on 2025-02-27T22:46:57Z
+# fly.toml app configuration file generated for facerecogbrain-express-mm41ea on 2025-02-28T03:38:22Z
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = 'expressjs-black-moon-7861'
+app = 'facerecogbrain-express-mm41ea'
 primary_region = 'iad'
 
 [build]
@@ -20,3 +20,4 @@ primary_region = 'iad'
   memory = '1gb'
   cpu_kind = 'shared'
   cpus = 1
+  memory_mb = 1024
