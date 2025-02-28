@@ -14,6 +14,9 @@ primary_region = 'iad'
   min_machines_running = 0
   processes = ['app']
 
+[deploy]
+  release_command = "./node_modules/knex/bin/cli.js migrate:latest --env production"
+
 [[vm]]
   memory = '1gb'
   cpu_kind = 'shared'
