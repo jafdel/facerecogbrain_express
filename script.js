@@ -17,7 +17,7 @@ const db = knex({
         user: 'jafdel',
         password: 'kH5KAQ15Ic8zXZHaUsdHGh3zj5JuwQGG',
         database: 'facerecogbrain',
-        ssl: true
+        //ssl: true
     },
 });
 
