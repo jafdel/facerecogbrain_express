@@ -13,7 +13,7 @@ const image = require("./controllers/image.js");
 const db = knex({
     client: 'pg',
     connection: {
-        host: 'postgres://postgres:wGm8kwO9ihzUdle@facerecogbrain-expressjs.flycast:5432/facerecogbrain',
+        host: 'facerecogbrain-expressjs.internal',
         user: 'postgres',
         password: 'wGm8kwO9ihzUdle',
         database: 'facerecogbrain'
